@@ -10,6 +10,7 @@ import { LandingComponent } from './landing/landing.component';
 import { LoginComponent } from './login/login.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ExamplesComponent } from './examples.component';
+//import { TeamComponent } from './team/team.component';
 
 @NgModule({
     imports: [
@@ -24,6 +25,7 @@ import { ExamplesComponent } from './examples.component';
     ],
     declarations: [
         LandingComponent,
+        //TeamComponent,
         LoginComponent,
         ExamplesComponent,
         ProfileComponent
